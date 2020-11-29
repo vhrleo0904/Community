@@ -13,6 +13,12 @@ public class Post {
 
     public String content;
 
+    public byte[] image;
+
+    public String rtime;
+
+    public String mtime;
+
     public int getPostid() {
         return postid;
     }
@@ -35,5 +41,29 @@ public class Post {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
+
+    public String getRtime() {
+        return rtime;
+    }
+
+    public void setRtime(String rtime) {
+        this.rtime = rtime;
+    }
+
+    public String getMtime() {
+        return mtime;
+    }
+
+    public void setMtime(String mtime) {
+        this.mtime = mtime;
     }
 }
